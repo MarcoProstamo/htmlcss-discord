@@ -41,12 +41,20 @@ a {
   width: 25%;
 }
 
+.col-30 {
+  width: 30%;
+}
+
 .col-40 {
   width: 40%;
 }
 
 .col-60 {
   width: 60%;
+}
+
+.col-70 {
+  width: 70%;
 }
 
 .col-100 {
@@ -311,18 +319,71 @@ main > section:nth-child(odd) {
 
 .lower-footer {
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 
-div.col-25.white-dashed-border {
-  height: calc(100% - 2px);
-}
-
-div.row.bg-lightaqua {
+.lower-footer div.row {
   padding: 20px 0;
   justify-content: space-between;
+  align-items: center;
 }
 
 .divider {
-  border-top: 1px solid white;
+  border-top: 1px solid #7289da;
   padding-top: calc(20px - 1px);
+}
+
+.sign-in-btn {
+  background-color: #7289da;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 15px;
+}
+
+.title-footer {
+  color: #7289da;
+  font-size: 1.5rem;
+}
+
+.upper-footer .container > .row {
+  padding: 15px 30px;
+}
+
+.upper-footer .row img {
+  height: 1rem;
+}
+
+.upper-footer .col-30 > .row {
+  padding: 10px 0;
+  color: white;
+}
+
+.upper-footer .col-25 * {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.upper-footer .col-25 {
+  margin-right: 20px;
+}
+
+.upper-footer .sub-title-footer {
+  color: #7289da;
+  font-size: 0.9rem;
+}
+
+.lang {
+  margin-left: 5px;
+}
+
+.sites {
+  color: white;
+}
+
+.sites img {
+  margin-right: 15px;
+}
+
+.upper-footer li {
+  margin: 0;
 }
