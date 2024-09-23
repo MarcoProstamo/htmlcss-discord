@@ -22,7 +22,7 @@ a {
 }
 
 .container-sm {
-  width: 550px;
+  width: 600px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -145,6 +145,7 @@ nav {
 
 li {
   display: inline-block;
+  margin: 0 10px;
 }
 
 .links {
@@ -161,6 +162,49 @@ li {
 
 main section {
   padding: 20px 0;
+}
+
+/* Hero Section */
+
+.hero-section .row {
+  align-items: center;
+  min-height: 400px;
+}
+
+.hero-section .col-100 {
+  text-align: center;
+  color: white;
+}
+
+.hero-section {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  min-height: 400px;
+}
+
+.download-btn {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+  border: 0;
+}
+
+.browser-btn {
+  background-color: #23272a;
+  border-radius: 15px;
+  padding: 10px 15px;
+  color: white;
+  border: 0;
+  margin-left: 10px;
+}
+
+.hero-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.hero-content {
+  margin-bottom: 10px;
 }
 
 /* Footer */
