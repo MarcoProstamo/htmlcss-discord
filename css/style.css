@@ -14,13 +14,15 @@ a {
 /* Container */
 
 .container {
-  width: 600px;
+  width: 800px;
   max-width: 100%;
   margin: 0 auto;
+
+  padding: 0 10px;
 }
 
 .container-sm {
-  width: 450px;
+  width: 550px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -120,8 +122,25 @@ a {
 /* Header */
 
 .page-header {
-  background-color: #acd6e4;
+  background-color: #255ee9;
   padding: 10px 0;
+}
+
+.page-header .row {
+  align-items: center;
+}
+
+.login {
+  text-align: center;
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px 15px;
+}
+
+/* Nav */
+
+nav {
+  flex-grow: 1;
 }
 
 li {
@@ -130,10 +149,7 @@ li {
 
 .links {
   text-align: center;
-}
-
-.login {
-  text-align: right;
+  color: white;
 }
 
 .row.bg-orange > div,
