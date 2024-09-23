@@ -128,7 +128,7 @@ main > section:nth-child(odd) {
 
 .hero-section .row {
   align-items: center;
-  min-height: 400px;
+  min-height: 715px;
 }
 
 .hero-section .col-100 {
@@ -139,7 +139,7 @@ main > section:nth-child(odd) {
 .hero-section {
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  min-height: 400px;
+  min-height: 715px;
 }
 
 .download-btn {
@@ -263,6 +263,15 @@ main > section:nth-child(odd) {
 .call-section .download-btn {
   background-color: #7289da;
   color: white;
+}
+
+.call-section h3 {
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  line-height: 100px;
+  background-size: 50%;
+  background-position-y: 10px;
+  background-position-x: 175px;
 }
 
 /* Footer */
