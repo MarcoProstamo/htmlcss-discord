@@ -61,16 +61,6 @@ a {
   width: 100%;
 }
 
-/* Other */
-
-.dashed-border {
-  border: 1px dashed black;
-}
-
-.white-dashed-border {
-  border: 1px dashed white;
-}
-
 /* Heigth */
 
 .height-200 {
@@ -83,48 +73,6 @@ a {
 
 .height-400 {
   height: 400px;
-}
-
-/* Palette */
-
-.bg-orange {
-  background-color: #d6a421;
-}
-
-.bg-blue {
-  background-color: #010088;
-}
-
-.bg-pink {
-  background-color: #ec81eb;
-}
-
-.bg-lightblue {
-  background-color: #1e8ff7;
-}
-
-.bg-lightpink {
-  background-color: #f9bfcb;
-}
-
-.bg-gray {
-  background-color: #d2d2d2;
-}
-
-.bg-green {
-  background-color: #228822;
-}
-
-.bg-salmon {
-  background-color: #ee8081;
-}
-
-.bg-aqua {
-  background-color: #1fafa6;
-}
-
-.bg-lightaqua {
-  background-color: #7efcd2;
 }
 
 /* Header */
@@ -221,13 +169,6 @@ main > section:nth-child(odd) {
 
 /*  Server Section */
 
-.server-section {
-  background-image: url(../img/wave.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  min-height: 400px;
-}
-
 .server-section .row {
   min-height: 400px;
 }
@@ -237,6 +178,12 @@ main > section:nth-child(odd) {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.server-section > img {
+  display: block;
+  filter: invert(76%) sepia(0%) saturate(1065%) hue-rotate(147deg)
+    brightness(102%) contrast(94%);
 }
 
 .special {
@@ -251,14 +198,6 @@ main > section:nth-child(odd) {
 
 /*  Channel Section */
 
-/* .channel-section {
-  background-image: url(../img/wave.svg);
-  transform: scaleX(-1);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  min-height: 400px;
-} */
-
 .channel-section {
   min-height: 400px;
 }
@@ -270,7 +209,8 @@ main > section:nth-child(odd) {
 .channel-section > img {
   display: block;
   transform: scaleX(-1);
-  filter: hue-rotate(90deg);
+  filter: invert(100%) sepia(0%) saturate(4%) hue-rotate(137deg)
+    brightness(104%) contrast(100%);
 }
 
 .channel-section .row .col-60 {
@@ -282,15 +222,14 @@ main > section:nth-child(odd) {
 
 /*  Fandom Section */
 
-.fandom-section {
-  background-image: url(../img/wave.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
+.fandom-section .row {
   min-height: 400px;
 }
 
-.fandom-section .row {
-  min-height: 400px;
+.fandom-section > img {
+  display: block;
+  filter: invert(76%) sepia(0%) saturate(1065%) hue-rotate(147deg)
+    brightness(102%) contrast(94%);
 }
 
 .fandom-section .row .col-60 {
