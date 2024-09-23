@@ -207,6 +207,39 @@ main section {
   margin-bottom: 10px;
 }
 
+/* Section */
+
+.server-section {
+  background-image: url(../img/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 400px;
+}
+
+.server-section .row {
+  min-height: 400px;
+}
+
+.server-section .row .col-60 {
+  background-image: url(../img/item1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.special {
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.sub-title {
+  margin-bottom: 15px;
+}
+
+.server-section .row .col-20 {
+}
+
 /* Footer */
 
 .page-footer {
