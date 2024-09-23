@@ -17,7 +17,6 @@ a {
   width: 800px;
   max-width: 100%;
   margin: 0 auto;
-
   padding: 0 10px;
 }
 
@@ -32,10 +31,6 @@ a {
 }
 
 /* Column */
-
-.col-20 {
-  width: 20%;
-}
 
 .col-25 {
   width: 25%;
@@ -59,20 +54,6 @@ a {
 
 .col-100 {
   width: 100%;
-}
-
-/* Heigth */
-
-.height-200 {
-  height: 200px;
-}
-
-.height-300 {
-  height: 300px;
-}
-
-.height-400 {
-  height: 400px;
 }
 
 /* Header */
@@ -107,11 +88,6 @@ li {
 .links {
   text-align: center;
   color: white;
-}
-
-.row.bg-orange > div,
-.row.bg-orange > nav {
-  padding: 5px 10px;
 }
 
 /* Main */
