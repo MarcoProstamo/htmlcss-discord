@@ -161,7 +161,11 @@ li {
 /* Main */
 
 main section {
-  padding: 20px 0;
+  padding-top: 20px;
+}
+
+main > section:nth-child(odd) {
+  background-color: #c3c3c3;
 }
 
 /* Hero Section */
@@ -207,7 +211,7 @@ main section {
   margin-bottom: 10px;
 }
 
-/* Section */
+/*  Server Section */
 
 .server-section {
   background-image: url(../img/wave.svg);
@@ -237,7 +241,65 @@ main section {
   margin-bottom: 15px;
 }
 
-.server-section .row .col-20 {
+/*  Channel Section */
+
+/* .channel-section {
+  background-image: url(../img/wave.svg);
+  transform: scaleX(-1);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 400px;
+} */
+
+.channel-section {
+  min-height: 400px;
+}
+
+.channel-section .container > .row {
+  min-height: 400px;
+}
+
+.channel-section > img {
+  display: block;
+  transform: scaleX(-1);
+  filter: hue-rotate(90deg);
+}
+
+.channel-section .row .col-60 {
+  background-image: url(../img/item2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*  Fandom Section */
+
+.fandom-section {
+  background-image: url(../img/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 400px;
+}
+
+.fandom-section .row {
+  min-height: 400px;
+}
+
+.fandom-section .row .col-60 {
+  background-image: url(../img/item3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Call Section */
+
+.call-section {
+  min-height: 400px;
+}
+
+.call-section .row {
+  text-align: center;
 }
 
 /* Footer */
