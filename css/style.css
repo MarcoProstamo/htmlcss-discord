@@ -186,7 +186,7 @@ main > section:nth-child(odd) {
     brightness(102%) contrast(94%);
 }
 
-.special {
+.server-section .col-40 .row {
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
@@ -197,10 +197,6 @@ main > section:nth-child(odd) {
 }
 
 /*  Channel Section */
-
-.channel-section {
-  min-height: 400px;
-}
 
 .channel-section .container > .row {
   min-height: 400px;
@@ -220,7 +216,14 @@ main > section:nth-child(odd) {
   background-position: center;
 }
 
-/*  Fandom Section */
+.channel-section .col-40 .row {
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  height: 400px;
+}
+
+/* Fandom */
 
 .fandom-section .row {
   min-height: 400px;
@@ -239,14 +242,27 @@ main > section:nth-child(odd) {
   background-position: center;
 }
 
+.fandom-section .col-40 .row {
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  height: 400px;
+}
+
 /* Call Section */
 
 .call-section {
   min-height: 400px;
+  padding-bottom: 50px;
 }
 
 .call-section .row {
   text-align: center;
+}
+
+.call-section .download-btn {
+  background-color: #7289da;
+  color: white;
 }
 
 /* Footer */
@@ -272,7 +288,7 @@ main > section:nth-child(odd) {
   padding-top: calc(20px - 1px);
 }
 
-.sign-in-btn {
+.lower-footer .sign-in-btn {
   background-color: #7289da;
   border-radius: 15px;
   color: white;
