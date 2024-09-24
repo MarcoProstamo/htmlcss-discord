@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discord</title>
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -12,31 +18,29 @@
     <header class="page-header">
       <div class="container">
         <div class="row">
-          <div>
-            <div class="row">
-              <img src="./img/logo.svg" alt="" />
-            </div>
+          <div class="col-20">
+            <img src="./img/logo.svg" alt="Discord Logo" />
           </div>
-          <nav>
+          <nav class="col-60">
             <ul class="links">
-              <li>
+              <li class="link">
                 <a href="#">Scarica</a>
               </li>
-              <li>
+              <li class="link">
                 <a href="#">Perché Discord</a>
               </li>
-              <li>
+              <li class="link">
                 <a href="#">Nitro</a>
               </li>
-              <li>
+              <li class="link">
                 <a href="#">Sicurezza</a>
               </li>
-              <li>
+              <li class="link">
                 <a href="#">Assistenza</a>
               </li>
             </ul>
           </nav>
-          <div class="login">Accedi</div>
+          <div class="btn btn-login col-20">Accedi</div>
         </div>
       </div>
     </header>
@@ -54,10 +58,13 @@
                 rende piü facile chiacchierare ogni giomo e ritrovarsi piü
                 spesso.
               </p>
-              <button class="download-btn">
-                &DownArrowBar; Scarica per Mac
+              <button class="btn btn-download">
+                <i class="fa-solid fa-arrow-down-long"></i>
+                Scarica per Mac
               </button>
-              <button class="browser-btn">Apri Discord nel tuo browser</button>
+              <button class="btn btn-browser">
+                Apri Discord nel tuo browser
+              </button>
             </div>
           </div>
         </div>

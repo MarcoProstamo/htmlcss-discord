@@ -1,4 +1,4 @@
-/* Reset */
+/* # Reset */
 
 * {
   box-sizing: border-box;
@@ -11,17 +11,20 @@ a {
   color: currentColor;
 }
 
-/* Container */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ! Container */
 
 .container {
-  width: 800px;
+  width: 80%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 10px;
 }
 
 .container-sm {
-  width: 600px;
+  width: 50%;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -30,7 +33,18 @@ a {
   display: flex;
 }
 
-/* Column */
+/* # Utils  */
+
+.btn {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 0;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* ! Column */
 
 .col-25 {
   width: 25%;
@@ -56,41 +70,37 @@ a {
   width: 100%;
 }
 
-/* Header */
+/* # Header */
 
 .page-header {
   background-color: #255ee9;
-  padding: 10px 0;
+  padding: 2rem 0;
 }
 
 .page-header .row {
   align-items: center;
+  justify-content: space-between;
 }
 
-.login {
-  text-align: center;
-  border-radius: 15px;
-  background-color: white;
-  padding: 5px 15px;
+.btn.btn-login {
+  font-size: 0.9rem;
+  color: black;
 }
 
-/* Nav */
-
-nav {
-  flex-grow: 1;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+/* ! Nav */
 
 .links {
   text-align: center;
   color: white;
 }
 
-/* Main */
+.links .link {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+/* # Main */
 
 main section {
   padding-top: 20px;
@@ -100,47 +110,45 @@ main > section:nth-child(odd) {
   background-color: #c3c3c3;
 }
 
-/* Hero Section */
-
-.hero-section .row {
-  align-items: center;
-  min-height: 715px;
-}
-
-.hero-section .col-100 {
-  text-align: center;
-  color: white;
-}
+/* ! Hero Section */
 
 .hero-section {
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  min-height: 715px;
 }
 
-.download-btn {
-  background-color: white;
-  border-radius: 15px;
-  padding: 10px 15px;
-  border: 0;
-}
-
-.browser-btn {
-  background-color: #23272a;
-  border-radius: 15px;
-  padding: 10px 15px;
+.hero-section .row {
+  align-items: center;
+  text-align: center;
+  min-height: 500px;
+  padding-bottom: 5rem;
   color: white;
-  border: 0;
-  margin-left: 10px;
+}
+
+.btn.btn-download {
+  color: black;
+  font-size: 1.4rem;
+  border-radius: 40px;
+  padding: 15px;
+}
+
+.btn.btn-browser {
+  background-color: #23272a;
+  font-size: 1.4rem;
+  border-radius: 40px;
+  padding: 15px;
+  margin-left: 1rem;
 }
 
 .hero-title {
-  font-size: 2rem;
-  margin-bottom: 15px;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .hero-content {
-  margin-bottom: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
 }
 
 /*  Server Section */
