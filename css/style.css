@@ -261,78 +261,81 @@ main > section:nth-child(odd) {
 /* Footer */
 
 .page-footer {
-  padding-top: 20px;
+  padding-top: 4rem;
   background-color: #222629;
-}
-
-.lower-footer {
-  margin-top: 20px;
-  padding-bottom: 20px;
-}
-
-.lower-footer div.row {
-  padding: 20px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.divider {
-  border-top: 1px solid #7289da;
-  padding-top: calc(20px - 1px);
-}
-
-.lower-footer .sign-in-btn {
-  background-color: #7289da;
-  border-radius: 15px;
-  color: white;
-  padding: 5px 15px;
 }
 
 .title-footer {
   color: #7289da;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
-.upper-footer .container > .row {
-  padding: 15px 30px;
+.upper-footer .col-30 > .row {
+  padding: 1rem 0;
+  line-height: 1rem;
+  color: white;
 }
 
 .upper-footer .row img {
   height: 1rem;
 }
 
-.upper-footer .col-30 > .row {
-  padding: 10px 0;
+.page-footer .row span {
+  margin-left: 0.3rem;
+}
+
+.upper-footer .socials li {
   color: white;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  display: inline-block;
 }
 
-.upper-footer .col-25 * {
+.upper-footer .col-70 * {
   color: white;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 
-.upper-footer .col-25 {
-  margin-right: 20px;
-}
-
-.upper-footer .sub-title-footer {
+.upper-footer h3.sub-title-footer {
   color: #7289da;
   font-size: 0.9rem;
 }
 
-.lang {
-  margin-left: 5px;
+.col-70 div li {
+  display: inline-block;
 }
 
-.sites {
-  color: white;
+.col-70 > .row {
+  justify-content: space-between;
 }
 
-.sites img {
-  margin-right: 15px;
-  margin-top: 10px;
+.col-70 div > .row {
+  flex-wrap: wrap;
+  width: 70%;
 }
 
-.upper-footer li {
-  margin: 0;
+.upper-footer .col-70 .row ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 0.9rem;
+}
+
+/* # Lower Footer */
+
+.lower-footer {
+  margin-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+.lower-footer div.row {
+  padding: 20px 0;
+  justify-content: space-between;
+  border-top: 1px solid #7289da;
+}
+
+.btn.btn-sign-in {
+  background-color: #7289da;
+  font-size: 0.9rem;
+  padding: 10px 15px;
 }
